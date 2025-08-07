@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #ffddcc;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ff4081;
+}
+
+.birthday-img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #ff4081;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+.video-container {
+  margin-top: 30px;
+  display: none;
+}
+
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
